@@ -1,0 +1,29 @@
+{
+  "name": "signals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "all": "0.0.0",
+    "gulpfile.js": "^2.4.3"
+  },
+  "devDependencies": {
+    "archiver": "3.0.0",
+    "browser-sync": "2.24.7",
+    "gulp": "=3.9.1",
+    "gulp-archiver": "1.0.0",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-clean-css": "3.10.0",
+    "gulp-debug": "4.0.0",
+    "gulp-file": "0.4.0",
+    "gulp-header": "2.0.5",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.1",
+    "gulp-uglify": "3.0.1"
+  }
+}
