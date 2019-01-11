@@ -172,6 +172,7 @@ function createArchive(directory, filename) {
   archive.directory('css/', 'css');
   archive.directory('img/', 'img');
   archive.directory('js/','js');
+  archive.directory('config/','config');
   archive.file('index.html');
   archive.file('LICENSE');
   archive.finalize();
