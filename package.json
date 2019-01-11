@@ -10,12 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "all": "0.0.0",
-    "gulpfile.js": "^2.4.3"
+    "gulpfile.js": "^2.4.3",
+    "pump": "^3.0.0"
   },
   "devDependencies": {
     "archiver": "3.0.0",
     "browser-sync": "2.24.7",
-    "gulp": "=3.9.1",
+    "gulp": "^3.9.1",
     "gulp-archiver": "1.0.0",
     "gulp-autoprefixer": "6.0.0",
     "gulp-clean-css": "3.10.0",

@@ -6,12 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+    </script>  
+
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
-    
+    <button class="btn">button1</button>
 
+    <P id=buttonText>DefaultButtonText</P>
+    <P id=digitalFB>DefaultDigitalFB</P>
+    <P id=numericFB>DefaultNumericFB</P>
+    <P id=serialFB>DefaultSerialFB</P>
+    <P id=digitalSubscribeText>DefaultDigitalSubscribeText</P>
+    <P id=numericSubscribeText>DefaultNumericSubscribeText</P>
+    <P id=serialSubscribeText>DefaultSerialSubscribeText</P>
+    <P id=errorText>DefaultErrorText</P>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="vendor/cr-com-lib.js"></script>
+    <script src="js/script.js"></script>
+
+    <crux-button id="btn_id"
+        label="Crestron Button"
+        type="default"
+        customClass="customClass"
+        shape="rounded-rectangle"
+        size="regular"
+        stretch="both"
+        iconposition="first"
+        iconclass="iconClass"
+        orientation="horizontal"
+        sendsignalonclick="1"
+        sendsignalontouch="2"
+        receivesignalselected="fb1"
+        receivesignallabel=""
+        receivesignalscriptlabelhtml="">
+    </crux-button>
 
 </body>
 </html>

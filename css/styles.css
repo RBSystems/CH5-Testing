@@ -1,0 +1,11 @@
+.btn {
+    height : 300px;
+    width : 300px;
+    background-color: green;
+    color: white;
+    border: 0;
+}
+
+.active {
+    background-color: purple;
+}
